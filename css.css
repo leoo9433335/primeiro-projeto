@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header
+{
+    padding: 8px 24px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header img{
+    width: 180px;
+}
+
+header  ul {
+
+    list-style: none;
+    display: flex;
+}
+
+header ul li +li{
+    margin-left: 24px;
+}
+
+header a{
+    color: #ebebeb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header a:hover{
+    color: #f13239;
+}
+
+.hero{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+background-position: center 25%;
+
+    height: 320px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1{
+    color: #ebebeb;
+    font-size: 36px;
+}
+
+
+.galery{
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 24px;
+   
+   
+}
+
+.galery h2{
+
+    margin-bottom: 32px;
+    border-left: 4px solid rgb(248, 6, 6);
+}
+
+.galeru-row{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.galeru-row div{
+    flex: 1 1 250px;
+}
+
+.galeru-row  img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+
+.galery p{
+    font-weight: bold;
+}
+
+
+.history {
+    
+    padding: 92px 24px 0 ;
+    background-color: #111111;
+    color: #ebebebeb;
+
+    border-top: 4px solid #f13239;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto ;
+    
+}
+
+
+
+
+
+
+.history a{
+    color:#f13239 ;
+    transition: color 0.3s;
+}
+
+.history  .container .col{
+    flex: 1 1 350px;
+}
+
+
+.history  img{
+    width: 100%;
+    display: block;
+}
+
+
+.history h2{
+    margin-bottom:32px ;
+    padding-left: 8px;
+    border-left: 4px solid  #f13239;
+
+}
+
+.history p{
+line-height: 1.5;
+}
+
+.history p+p{
+margin-top: 24px;
+}
+
+
+
+.history a:hover{
+    color: #ebebeb;
+}
+
+
+
+.history .container {
+    
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 24px;
+
+    border-bottom: 2px solid #f13239;
+
+}
+
+
+footer{
+    padding: 64px 24px;
+    background-color: #111111;
+    color: #ebebeb;
+    text-align: center;
+}
+
+footer a{
+    color: #f13239;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+   color: #ebebeb;
+}
